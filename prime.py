@@ -12,7 +12,7 @@ def is_prime(n):
     # Check divisors from 3 to sqrt(n)
     for i in range(3, int(n**0.5) + 1, 2):
         if n % i == 0:
-            return False
+            return false
     return True
 
 # Main program
@@ -24,3 +24,4 @@ try:
         print(f"{num} is not a prime number.")
 except ValueError:
     print("Invalid input. Please enter an integer.")
+name="harsh"
